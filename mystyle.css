@@ -1,0 +1,64 @@
+/* change the background color and text color*/
+footer {
+    background-color: #342850;
+    color: #e0dad9;
+}
+
+/* change the background color */
+.navbar-custom {
+    background-color: #342850;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color:  #e0dad9;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #e0dad9;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color:#9e78bd;/* made this color a bit brighter that originaly it was planned */
+}
+.jumbotron{
+    background-image: url("images/photo-1515524738708-327f6b0037a7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #e0dad9;
+   }
+ /*horizontal line*/  
+   hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(0, 116, 128, 0.5);
+  }
+ /*image width for the Project 1 lg screens*/   
+.card-img{
+    max-width: 70%;
+}
+
+/*changing gray breadcrumb background to white*/
+.breadcrumb{
+    background-color: white;
+}
+/*skills icons in the circles*/
+
+.skill-cistom{
+    border-radius: 6rem;
+    padding: 4rem;
+    border: 2px solid #342850;   
+}
+/*circles are smaller on the mobile screens*/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .skill-cistom {
+        padding: 2rem;
+    }
+  }
+.footer-copyright {
+    background-color: rgba(0, 116, 128, 0.5);
+}  
